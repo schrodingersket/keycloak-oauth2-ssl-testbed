@@ -42,6 +42,10 @@ u: admin
 p: admin
 ````
 
+Note that the internal database is deleted after the Docker container is shut down (as any good
+testbed should do :), so any changes you make in the UI will not persist across restarts. You can
+change this behavior by removing the `--rm` flag in the Docker run command in `run.sh`.
+
 ### Testing with Insomnia
 
 Now that you have a fully-functional OAuth2 server configured with SSL running, let's test it out!
