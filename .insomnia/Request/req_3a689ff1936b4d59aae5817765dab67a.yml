@@ -1,0 +1,31 @@
+_id: req_3a689ff1936b4d59aae5817765dab67a
+type: Request
+parentId: fld_6117e9301f394041b217b93041ffe729
+modified: 1630688524631
+created: 1630688313599
+url: https://localhost:8443/auth/realms/master/protocol/openid-connect/userinfo
+name: Resource Owner Password Credentials
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: password
+  authorizationUrl: https://localhost:8443/auth/realms/master/protocol/openid-connect/auth
+  accessTokenUrl: https://localhost:8443/auth/realms/master/protocol/openid-connect/token
+  clientId: admin-cli
+  disabled: false
+  usePkce: true
+  responseType: token
+  username: admin
+  password: admin
+metaSortKey: -1630688513417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

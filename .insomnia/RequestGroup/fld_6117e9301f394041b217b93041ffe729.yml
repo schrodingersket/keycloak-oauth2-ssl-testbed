@@ -1,0 +1,10 @@
+_id: fld_6117e9301f394041b217b93041ffe729
+type: RequestGroup
+parentId: wrk_a4d208ad640d48da94a808cac53d5ff9
+modified: 1630688513317
+created: 1630688513317
+name: Get User Info
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1630688513317

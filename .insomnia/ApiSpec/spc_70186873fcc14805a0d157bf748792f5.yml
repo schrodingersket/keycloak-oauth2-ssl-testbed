@@ -1,0 +1,8 @@
+_id: spc_70186873fcc14805a0d157bf748792f5
+type: ApiSpec
+parentId: wrk_a4d208ad640d48da94a808cac53d5ff9
+modified: 1630687512043
+created: 1630687512043
+fileName: keycloak-oauth2-ssl.yaml
+contents: ""
+contentType: yaml

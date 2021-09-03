@@ -1,0 +1,28 @@
+_id: req_569cc276d13d41b0ba68f71bfedb7011
+type: Request
+parentId: fld_6117e9301f394041b217b93041ffe729
+modified: 1630688530966
+created: 1630687529738
+url: https://localhost:8443/auth/realms/master/protocol/openid-connect/userinfo
+name: Authorization Code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: https://localhost:8443/auth/realms/master/protocol/openid-connect/auth
+  accessTokenUrl: https://localhost:8443/auth/realms/master/protocol/openid-connect/token
+  clientId: security-admin-console
+  disabled: false
+  usePkce: true
+metaSortKey: -1630688513467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
